@@ -1,0 +1,4 @@
+.checkoutHeader {
+  /* @apply grid-cols-5; */
+  grid-template-columns: repeat(4, 1fr) 5rem;
+}

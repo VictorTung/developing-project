@@ -1,0 +1,14 @@
+#button-container.button-container {
+  @apply tracking-wider leading-10 px-5 text-base uppercase font-bold cursor-pointer flex justify-center items-center bg-black text-white border-black border-solid border-0 hover:bg-white hover:text-black hover:border-2;
+  font-family: "Open Sans Condensed";
+  min-width: 165px;
+  min-height: 50px;
+}
+
+#button-container.button-container.google-sign-in {
+  @apply bg-blue-600 text-white hover:bg-blue-300 border-none;
+}
+
+#button-container.button-container.inverted {
+  @apply bg-white text-black border-2 border-solid border-black hover:bg-black hover:text-white hover:border-none;
+}
